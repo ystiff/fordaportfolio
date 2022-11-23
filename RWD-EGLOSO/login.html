@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_ico/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./favicon_ico/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./favicon_ico/android-chrome-512x512.png">
+    <link rel="icon" type="image/x-icon" href="/favicon_ico/favicon.ico">
+
+    </head>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+         
+        .logoimg {
+           float:center;
+           padding: 1%;
+        }
+         
+        form {
+            border: 3px solid #f1f1f1;
+        }
+
+            /* Full-width inputs */
+        input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        }
+
+        /* Set a style for all buttons */
+        button {
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        display: center;
+        }
+
+        /* Add a hover effect for buttons */
+        button:hover {
+        opacity: 0.8;
+        }
+
+        /* Extra style for the cancel button (red) */
+        .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #9d8d8a;
+         
+         
+        } 
+        /* Add padding to containers */
+        .container {
+        padding: 16px;
+        }
+
+        /* The "Forgot password" text */
+        span.psw {
+        float: right;
+        padding-top: 16px;
+        }
+
+        /* Change styles for span and cancel button on extra small screens */
+        @media screen and (max-width: 300px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+        .cancelbtn {
+            width: 50%;
+        }
+        }
+
+        .logoimg{
+            text-align: center;  
+        }
+    
+    </style>
+
+
+    <body>
+    <div class="header">
+        <div class="logoimg"> <a href="index.html"><img src="images/logo.png" height="50" width="200"></a></div>
+         
+    </div>
+
+    <form action="action_page.php" method="post">
+    
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+    
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+    
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn"><a href="index.html">Cancel</a></button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+
+               
+                <div class="sidebar">
+                    <h4>For more details:</h4>
+
+                </div>
+        <footer>
+             <p>Author: Steffanie Egloso <br>
+             <a href="mailto:steff.egloso@gmail.com">steff.egloso@gmail.com</a></p>
+        </footer >
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        </div>
+    </div>
+    </body>
+</html>
